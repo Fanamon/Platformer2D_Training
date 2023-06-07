@@ -1,0 +1,1916 @@
+fileFormatVersion: 2
+guid: 5b204bfbd4a438b4cac6d85f5ae4192a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Werewolf Atlas_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1139
+        width: 138
+        height: 166
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20785cf428b2c44c8b26e03c178ed7f
+      internalID: 1692856759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1139
+        width: 141
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad550340adefa264fa5d1255b7124ae8
+      internalID: -1311907296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_2
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 1139
+        width: 142
+        height: 162
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b9a41be9e05d654fb0e6997c62544c7
+      internalID: -1203209546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_3
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 938
+        width: 140
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a2b446390abf7d429cf910de35d0e60
+      internalID: -874566427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_4
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 938
+        width: 165
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4333d829b5d87a74ea58ddecce11dda8
+      internalID: 12455765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 938
+        width: 158
+        height: 170
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ef31f53a29533e41a90190eca81daa2
+      internalID: -193190560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_6
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 938
+        width: 162
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 681123f37eef72a48a03b71cb0d87c9b
+      internalID: -782012782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 739
+        width: 174
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315a63148fc8b564d85de782d1c0d939
+      internalID: 138628843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_15
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 539
+        width: 158
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e07b4c73b758e4abc6fa19909060b9
+      internalID: -140812269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_16
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 539
+        width: 158
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e929992ea7453446bb5fafd5081fbad
+      internalID: -1361806440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_17
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 539
+        width: 158
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e0ec574179de14aaecc0711a286041
+      internalID: -1768841283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_18
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 539
+        width: 158
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47dec38e288e6d4db297bee6d27933d
+      internalID: -65815337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_19
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 539
+        width: 166
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d0d51b46641de4eb64e566742252e3
+      internalID: 442055145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_20
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 539
+        width: 158
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1dc3379c5ef8a40be5f8ab77687e43
+      internalID: 689952514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_21
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 539
+        width: 158
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 645cf7ced0b71fa42a46f224e0998cb4
+      internalID: 376270415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_22
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 539
+        width: 158
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422ab04725ff822429bd7e0821482370
+      internalID: 859459774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_23
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 330
+        width: 158
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5225f6cd2f8483f4d91130200c6bb89b
+      internalID: -480084574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 330
+        width: 158
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4e83cc59412bf47a78a4fb5e974f43
+      internalID: -168122105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_25
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 330
+        width: 158
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ef30d74f1bca5489816bb53720dddb
+      internalID: 195004155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_26
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 331
+        width: 230
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e126ced7c304a41a0ffc4441af23b7
+      internalID: -978330868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_27
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 331
+        width: 228
+        height: 161
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dbb2cc4e1db1e46af1a94e9dab2e9c
+      internalID: -1128989262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_29
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 330
+        width: 231
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e352c662f844dd47bec038442bef931
+      internalID: 1718287141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_30
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 330
+        width: 289
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3b25524f8aa314081c61a823e3e733
+      internalID: 1120322452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_31
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 330
+        width: 257
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a043c845018b0348a06481eef39e361
+      internalID: -1140161996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_32
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 330
+        width: 200
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47f982ebfda17f74db2238728ef9a5aa
+      internalID: -1304161742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_33
+      rect:
+        serializedVersion: 2
+        x: 2128
+        y: 330
+        width: 184
+        height: 149
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f64bdf903662ea4e9268e42e24f7ad5
+      internalID: -330592061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_35
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 203
+        width: 80
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc635a9027770f449802dd953763fa8
+      internalID: -1051308473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_36
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 203
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acafa30ae21a6442a517a19c293d688
+      internalID: -344173623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_37
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 203
+        width: 85
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4e9bdcaaa3343949a69fbc5ab3b683c
+      internalID: 827931474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_38
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 203
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beff52bebe310dd43a41415049cf4fae
+      internalID: 1103352639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_39
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 203
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4260eb6dc230fdd478bac62230b4bc45
+      internalID: -383313392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_40
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 27
+        width: 151
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a0b5fdd3b4ef04c8606e5c84ef3878
+      internalID: -58782228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_41
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 27
+        width: 151
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2125fb1ec372c2409f3c4ab55f7870a
+      internalID: -737469347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_42
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 27
+        width: 151
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 701609c50286e2243916c5b1c7e83f25
+      internalID: 1807196608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_43
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 27
+        width: 151
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdd5ab70396182445ba6fe3d952d75c6
+      internalID: 905029580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_44
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 27
+        width: 210
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3c6e3e9d42ab14f8173b3c7e3eb291
+      internalID: 924265606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_45
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 27
+        width: 214
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf371cea7830f9a4b8f33d51a1c9939d
+      internalID: -2137068306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_46
+      rect:
+        serializedVersion: 2
+        x: 1148
+        y: 45
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819ce690aa893564da4ca185a0d01242
+      internalID: -584203887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_47
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 27
+        width: 213
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641f297be41d54c42b78aaf33a8f6ef0
+      internalID: -1519139223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_48
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 41
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8223a88825c3ee47823d85e7eb506ae
+      internalID: -2031912544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_49
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 27
+        width: 203
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 478764b7a1c945f4289f376c02599fc7
+      internalID: -892350156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Werewolf Atlas_50
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 36
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23deb19b5d7f909479ceb827bc835041
+      internalID: -1430039745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -1165.6299, y: -485.98438}
+      - {x: -1165.6299, y: -634.81354}
+      - {x: -1024.7925, y: -634.81354}
+      - {x: -1011.0523, y: -633.6687}
+      - {x: -1011.0523, y: -627.9445}
+      - {x: -1012.1973, y: -625.6548}
+      - {x: -1045.4028, y: -510.02603}
+      - {x: -1100.3638, y: -485.98438}
+    - - {x: -993.877, y: -485.98438}
+      - {x: -996.16705, y: -495.1431}
+      - {x: -996.16705, y: -634.81354}
+      - {x: -857.6196, y: -634.81354}
+      - {x: -841.58936, y: -633.6687}
+      - {x: -841.58936, y: -598.17865}
+      - {x: -906.85547, y: -485.98438}
+    - - {x: -736.24756, y: -493.99826}
+      - {x: -775.1782, y: -485.98438}
+      - {x: -804.9487, y: -485.98438}
+      - {x: -822.124, y: -488.27408}
+      - {x: -825.5591, y: -527.1986}
+      - {x: -825.5591, y: -634.81354}
+      - {x: -823.26904, y: -634.81354}
+      - {x: -816.3989, y: -631.379}
+      - {x: -806.09375, y: -621.07544}
+      - {x: -808.3838, y: -625.6548}
+      - {x: -808.3838, y: -627.9445}
+      - {x: -802.6587, y: -634.81354}
+      - {x: -670.98145, y: -634.81354}
+      - {x: -670.98145, y: -625.6548}
+      - {x: -707.6221, y: -534.0676}
+    - - {x: -651.5161, y: -556.9644}
+      - {x: -641.21094, y: -614.2064}
+      - {x: -628.6157, y: -634.81354}
+      - {x: -496.9385, y: -634.81354}
+      - {x: -496.9385, y: -607.3374}
+      - {x: -532.4341, y: -511.17087}
+      - {x: -569.0747, y: -487.12924}
+      - {x: -638.9209, y: -487.12924}
+      - {x: -651.5161, y: -500.8673}
+    - - {x: -432.81738, y: -538.64703}
+      - {x: -478.61816, y: -554.67474}
+      - {x: -483.19824, y: -576.4267}
+      - {x: -483.19824, y: -634.81354}
+      - {x: -270.2246, y: -634.81354}
+      - {x: -270.2246, y: -603.90283}
+      - {x: -334.3457, y: -538.64703}
+    - - {x: -216.40869, y: -552.3851}
+      - {x: -261.06445, y: -560.399}
+      - {x: -261.06445, y: -629.08936}
+      - {x: -254.19435, y: -634.81354}
+      - {x: -43.510742, y: -634.81354}
+      - {x: -43.510742, y: -552.3851}
+    - - {x: 153.43262, y: -599.3235}
+      - {x: 148.85254, y: -599.3235}
+      - {x: 149.99756, y: -599.3235}
+      - {x: 153.43262, y: -598.17865}
+      - {x: 171.75293, y: -590.1648}
+      - {x: 175.18799, y: -570.7025}
+      - {x: 27.480469, y: -570.7025}
+      - {x: -12.595215, y: -579.8612}
+      - {x: -27.480469, y: -608.48224}
+      - {x: -27.480469, y: -632.52386}
+      - {x: -21.755371, y: -634.81354}
+      - {x: 198.08838, y: -634.81354}
+      - {x: 198.08838, y: -621.07544}
+      - {x: 190.07324, y: -615.35126}
+    - - {x: 225.56885, y: -570.7025}
+      - {x: 212.97363, y: -579.8612}
+      - {x: 212.97363, y: -632.52386}
+      - {x: 215.26367, y: -634.81354}
+      - {x: 419.07715, y: -634.81354}
+      - {x: 419.07715, y: -598.17865}
+      - {x: 374.4214, y: -570.7025}
+    - - {x: -787.77344, y: -566.12317}
+      - {x: -786.6284, y: -564.97833}
+      - {x: -784.3384, y: -563.8335}
+      - {x: -784.3384, y: -564.97833}
+      - {x: -783.19336, y: -566.12317}
+      - {x: -783.19336, y: -572.9922}
+      - {x: -788.91846, y: -581.00604}
+      - {x: -787.77344, y: -581.00604}
+    - - {x: -613.73047, y: -564.97833}
+      - {x: -610.2954, y: -567.268}
+      - {x: -610.2954, y: -574.137}
+      - {x: -616.0205, y: -581.00604}
+      - {x: -614.8755, y: -582.15094}
+      - {x: -613.73047, y: -581.00604}
+    - - {x: -1127.8442, y: -564.97833}
+      - {x: -1125.5542, y: -563.8335}
+      - {x: -1125.5542, y: -564.97833}
+      - {x: -1123.2642, y: -571.84735}
+      - {x: -1126.6992, y: -575.28186}
+      - {x: -1126.6992, y: -576.4267}
+      - {x: -1130.1343, y: -579.8612}
+      - {x: -1128.9893, y: -581.00604}
+      - {x: -1127.8442, y: -579.8612}
+    - - {x: -958.38135, y: -574.137}
+      - {x: -959.52637, y: -571.84735}
+      - {x: -958.38135, y: -570.7025}
+      - {x: -958.38135, y: -566.12317}
+      - {x: -957.2363, y: -564.97833}
+      - {x: -957.2363, y: -563.8335}
+      - {x: -956.0913, y: -563.8335}
+      - {x: -956.0913, y: -564.97833}
+      - {x: -953.8013, y: -568.41284}
+      - {x: -953.8013, y: -571.84735}
+      - {x: -957.2363, y: -575.28186}
+      - {x: -957.2363, y: -577.57153}
+      - {x: -959.52637, y: -579.8612}
+      - {x: -958.38135, y: -579.8612}
+    - - {x: -1130.1343, y: -380.65915}
+      - {x: -1151.8896, y: -386.38336}
+      - {x: -1164.4849, y: -416.14917}
+      - {x: -1164.4849, y: -458.50824}
+      - {x: -1131.2793, y: -458.50824}
+      - {x: -1091.2036, y: -436.7563}
+      - {x: -1080.8984, y: -408.13528}
+      - {x: -1080.8984, y: -380.65915}
+    - - {x: -984.71686, y: -374.93494}
+      - {x: -1013.34235, y: -374.93494}
+      - {x: -1064.8682, y: -404.70078}
+      - {x: -1064.8682, y: -458.50824}
+      - {x: -1043.1128, y: -458.50824}
+      - {x: -1001.89215, y: -440.1908}
+      - {x: -984.71686, y: -411.56982}
+      - {x: -981.28174, y: -401.26627}
+      - {x: -981.28174, y: -381.804}
+    - - {x: -962.9614, y: -358.9072}
+      - {x: -962.9614, y: -440.1908}
+      - {x: -959.52637, y: -458.50824}
+      - {x: -916.0156, y: -458.50824}
+      - {x: -887.39014, y: -448.20468}
+      - {x: -874.7949, y: -440.1908}
+      - {x: -874.7949, y: -370.3556}
+      - {x: -878.23, y: -358.9072}
+    - - {x: -831.2842, y: -374.93494}
+      - {x: -846.16943, y: -374.93494}
+      - {x: -861.0547, y: -382.94882}
+      - {x: -861.0547, y: -406.99045}
+      - {x: -818.68896, y: -458.50824}
+      - {x: -783.19336, y: -458.50824}
+      - {x: -777.46826, y: -448.20468}
+      - {x: -777.46826, y: -423.01822}
+      - {x: -823.26904, y: -376.0798}
+    - - {x: -755.7129, y: -374.93494}
+      - {x: -763.728, y: -388.67303}
+      - {x: -763.728, y: -405.8456}
+      - {x: -737.3926, y: -433.32178}
+      - {x: -705.33203, y: -458.50824}
+      - {x: -685.8667, y: -458.50824}
+      - {x: -680.1416, y: -456.21857}
+      - {x: -680.1416, y: -413.8595}
+      - {x: -729.37744, y: -374.93494}
+    - - {x: -1051.1279, y: -172.29836}
+      - {x: -1135.8594, y: -172.29836}
+      - {x: -1164.4849, y: -187.18126}
+      - {x: -1164.4849, y: -331.43106}
+      - {x: -1003.0372, y: -331.43106}
+      - {x: -1003.0372, y: -240.98872}
+      - {x: -1040.8228, y: -179.16739}
+    - - {x: -845.0244, y: -172.29836}
+      - {x: -970.97656, y: -172.29836}
+      - {x: -982.4268, y: -219.23677}
+      - {x: -982.4268, y: -321.1275}
+      - {x: -964.10645, y: -331.43106}
+      - {x: -845.0244, y: -331.43106}
+      - {x: -839.2993, y: -330.28622}
+      - {x: -820.979, y: -303.9549}
+      - {x: -820.979, y: -250.14745}
+    - - {x: -696.1719, y: -172.29836}
+      - {x: -771.74316, y: -172.29836}
+      - {x: -801.5137, y: -196.33998}
+      - {x: -801.5137, y: -314.25845}
+      - {x: -775.1782, y: -331.43106}
+      - {x: -640.0659, y: -331.43106}
+      - {x: -640.0659, y: -273.04422}
+      - {x: -674.4165, y: -176.87772}
+    - - {x: -392.7417, y: -273.04422}
+      - {x: -506.09866, y: -170.00867}
+      - {x: -519.83887, y: -164.28447}
+      - {x: -585.105, y: -164.28447}
+      - {x: -622.8906, y: -179.16739}
+      - {x: -626.3257, y: -239.84389}
+      - {x: -626.3257, y: -286.78232}
+      - {x: -618.31055, y: -300.5204}
+      - {x: -602.2803, y: -297.08588}
+      - {x: -596.5552, y: -289.072}
+      - {x: -594.26514, y: -283.34778}
+      - {x: -594.26514, y: -278.76843}
+      - {x: -598.8452, y: -273.04422}
+      - {x: -594.26514, y: -273.04422}
+      - {x: -594.26514, y: -283.34778}
+      - {x: -593.1201, y: -287.92715}
+      - {x: -601.13525, y: -319.98267}
+      - {x: -571.36475, y: -323.41718}
+      - {x: -548.46436, y: -299.37555}
+      - {x: -516.4038, y: -318.8378}
+      - {x: -486.6333, y: -324.562}
+      - {x: -484.34326, y: -316.54813}
+      - {x: -484.34326, y: -307.3894}
+      - {x: -466.02295, y: -329.14136}
+      - {x: -448.84766, y: -331.43106}
+      - {x: -436.25244, y: -331.43106}
+      - {x: -416.7871, y: -330.28622}
+      - {x: -392.7417, y: -314.25845}
+    - - {x: -375.5664, y: -293.65134}
+      - {x: -368.6963, y: -305.09973}
+      - {x: -351.521, y: -300.5204}
+      - {x: -346.94092, y: -294.79617}
+      - {x: -343.50586, y: -286.78232}
+      - {x: -343.50586, y: -281.0581}
+      - {x: -348.08594, y: -275.33392}
+      - {x: -343.50586, y: -276.47876}
+      - {x: -343.50586, y: -286.78232}
+      - {x: -361.82617, y: -331.43106}
+      - {x: -162.59277, y: -331.43106}
+      - {x: -162.59277, y: -247.85776}
+      - {x: -263.3545, y: -166.57416}
+      - {x: -354.95605, y: -166.57416}
+      - {x: -374.4214, y: -182.60191}
+      - {x: -375.5664, y: -188.32611}
+    - - {x: 79.00635, y: -181.45706}
+      - {x: 66.41113, y: -187.18126}
+      - {x: 64.12109, y: -190.61578}
+      - {x: 65.26611, y: -188.32611}
+      - {x: 70.99121, y: -182.60191}
+      - {x: 75.57129, y: -183.74675}
+      - {x: 87.021484, y: -175.73286}
+      - {x: 88.166504, y: -170.00867}
+      - {x: -87.021484, y: -170.00867}
+      - {x: -103.05176, y: -171.15352}
+      - {x: -119.08203, y: -200.91934}
+      - {x: -119.08203, y: -331.43106}
+      - {x: 53.815918, y: -331.43106}
+      - {x: 115.64697, y: -229.54033}
+      - {x: 115.64697, y: -180.31223}
+      - {x: 113.35693, y: -178.02255}
+    - - {x: 333.20068, y: -291.36166}
+      - {x: 344.65088, y: -300.5204}
+      - {x: 364.1162, y: -331.43106}
+      - {x: 427.0923, y: -331.43106}
+      - {x: 427.0923, y: -179.16739}
+      - {x: 198.08838, y: -179.16739}
+      - {x: 135.1123, y: -189.47095}
+      - {x: 135.1123, y: -284.4926}
+      - {x: 185.49316, y: -292.5065}
+      - {x: 254.19435, y: -290.21683}
+      - {x: 295.41504, y: -313.11362}
+      - {x: 306.86523, y: -311.96878}
+      - {x: 301.14014, y: -314.25845}
+      - {x: 294.27002, y: -318.8378}
+      - {x: 296.56006, y: -331.43106}
+      - {x: 321.7505, y: -331.43106}
+      - {x: 327.4756, y: -330.28622}
+      - {x: 333.20068, y: -306.24457}
+      - {x: 333.20068, y: -300.5204}
+      - {x: 334.3457, y: -291.36166}
+    - - {x: 651.5161, y: -308.53427}
+      - {x: 662.9663, y: -316.54813}
+      - {x: 681.2866, y: -331.43106}
+      - {x: 713.34717, y: -331.43106}
+      - {x: 713.34717, y: -192.90546}
+      - {x: 701.897, y: -175.73286}
+      - {x: 452.2827, y: -175.73286}
+      - {x: 452.2827, y: -292.5065}
+      - {x: 490.06836, y: -331.43106}
+      - {x: 625.18066, y: -331.43106}
+      - {x: 642.35596, y: -306.24457}
+      - {x: 637.7759, y: -299.37555}
+      - {x: 629.76074, y: -291.36166}
+      - {x: 641.21094, y: -301.66522}
+    - - {x: 863.3447, y: -301.66522}
+      - {x: 869.0698, y: -315.4033}
+      - {x: 893.11523, y: -331.43106}
+      - {x: 928.61084, y: -331.43106}
+      - {x: 934.33594, y: -319.98267}
+      - {x: 935.48096, y: -311.96878}
+      - {x: 935.48096, y: -255.87164}
+      - {x: 929.75586, y: -254.7268}
+      - {x: 920.5957, y: -257.01648}
+      - {x: 906.85547, y: -188.32611}
+      - {x: 866.7798, y: -175.73286}
+      - {x: 769.4531, y: -175.73286}
+      - {x: 731.6675, y: -188.32611}
+      - {x: 731.6675, y: -252.43712}
+      - {x: 788.91846, y: -331.43106}
+      - {x: 848.4595, y: -331.43106}
+      - {x: 850.7495, y: -330.28622}
+      - {x: 861.0547, y: -306.24457}
+      - {x: 859.90967, y: -299.37555}
+      - {x: 851.89453, y: -291.36166}
+    - - {x: 1031.6626, y: -179.16739}
+      - {x: 995.02203, y: -179.16739}
+      - {x: 975.55664, y: -183.74675}
+      - {x: 953.8013, y: -253.58195}
+      - {x: 953.8013, y: -286.78232}
+      - {x: 1001.89215, y: -331.43106}
+      - {x: 1141.5845, y: -331.43106}
+      - {x: 1141.5845, y: -242.13356}
+      - {x: 1074.0283, y: -180.31223}
+    - - {x: -155.72266, y: -274.18906}
+      - {x: -162.59277, y: -274.18906}
+      - {x: -167.17285, y: -277.6236}
+      - {x: -167.17285, y: -298.2307}
+      - {x: -160.30273, y: -317.69296}
+      - {x: -147.70752, y: -317.69296}
+      - {x: -143.12744, y: -314.25845}
+      - {x: -143.12744, y: -289.072}
+      - {x: -147.70752, y: -275.33392}
+    - - {x: -447.70264, y: -311.96878}
+      - {x: -448.84766, y: -305.09973}
+      - {x: -444.26758, y: -314.25845}
+      - {x: -441.97754, y: -315.4033}
+      - {x: -444.26758, y: -314.25845}
+      - {x: -444.26758, y: -313.11362}
+    - - {x: -202.66846, y: -309.6791}
+      - {x: -201.52344, y: -311.96878}
+      - {x: -199.2334, y: -314.25845}
+      - {x: -201.52344, y: -313.11362}
+    - - {x: -417.93213, y: -305.09973}
+      - {x: -424.80225, y: -299.37555}
+      - {x: -425.94727, y: -299.37555}
+      - {x: -423.65723, y: -301.66522}
+      - {x: -422.5122, y: -301.66522}
+      - {x: -415.6421, y: -308.53427}
+      - {x: -416.7871, y: -309.6791}
+      - {x: -416.7871, y: -308.53427}
+    - - {x: -414.49707, y: -294.79617}
+      - {x: -417.93213, y: -291.36166}
+      - {x: -419.07715, y: -292.5065}
+      - {x: -417.93213, y: -293.65134}
+      - {x: -414.49707, y: -290.21683}
+      - {x: -414.49707, y: -286.78232}
+      - {x: -415.6421, y: -285.63748}
+      - {x: -414.49707, y: -286.78232}
+      - {x: -414.49707, y: -289.072}
+      - {x: -415.6421, y: -290.21683}
+      - {x: -414.49707, y: -295.941}
+    - - {x: -1138.1494, y: -279.91327}
+      - {x: -1131.2793, y: -273.04422}
+      - {x: -1134.7144, y: -281.0581}
+      - {x: -1137.0044, y: -279.91327}
+    - - {x: -956.0913, y: -279.91327}
+      - {x: -949.2212, y: -273.04422}
+      - {x: -952.65625, y: -281.0581}
+      - {x: -954.9463, y: -279.91327}
+    - - {x: -775.1782, y: -279.91327}
+      - {x: -771.74316, y: -276.47876}
+      - {x: -769.4531, y: -276.47876}
+      - {x: -768.3081, y: -274.18906}
+      - {x: -771.74316, y: -281.0581}
+      - {x: -774.0332, y: -279.91327}
+    - - {x: -494.64847, y: -258.16132}
+      - {x: -498.08353, y: -261.59583}
+      - {x: -488.92334, y: -270.75455}
+      - {x: -480.9082, y: -273.04422}
+    - - {x: -1057.998, y: -254.7268}
+      - {x: -1056.853, y: -246.71292}
+      - {x: -1057.998, y: -245.56808}
+      - {x: -1056.853, y: -246.71292}
+      - {x: -1052.273, y: -247.85776}
+      - {x: -1051.1279, y: -257.01648}
+      - {x: -1049.9829, y: -258.16132}
+      - {x: -1049.9829, y: -261.59583}
+      - {x: -1048.8379, y: -262.74066}
+      - {x: -1051.1279, y: -260.451}
+    - - {x: -875.93994, y: -254.7268}
+      - {x: -874.7949, y: -246.71292}
+      - {x: -874.7949, y: -245.56808}
+      - {x: -870.21484, y: -249.0026}
+      - {x: -869.0698, y: -257.01648}
+      - {x: -867.9248, y: -258.16132}
+      - {x: -867.9248, y: -261.59583}
+      - {x: -866.7798, y: -262.74066}
+      - {x: -869.0698, y: -260.451}
+    - - {x: -1110.669, y: -254.7268}
+      - {x: -1110.669, y: -252.43712}
+      - {x: -1114.104, y: -250.14745}
+      - {x: -1112.959, y: -252.43712}
+      - {x: -1110.669, y: -252.43712}
+      - {x: -1108.3789, y: -250.14745}
+      - {x: -1104.9438, y: -252.43712}
+      - {x: -1110.669, y: -253.58195}
+      - {x: -1112.959, y: -257.01648}
+    - - {x: -928.61084, y: -254.7268}
+      - {x: -928.61084, y: -252.43712}
+      - {x: -932.0459, y: -250.14745}
+      - {x: -930.9009, y: -252.43712}
+      - {x: -928.61084, y: -252.43712}
+      - {x: -926.3208, y: -250.14745}
+      - {x: -922.88574, y: -252.43712}
+      - {x: -928.61084, y: -253.58195}
+      - {x: -930.9009, y: -257.01648}
+    - - {x: -747.69775, y: -254.7268}
+      - {x: -747.69775, y: -252.43712}
+      - {x: -751.1328, y: -250.14745}
+      - {x: -749.9878, y: -252.43712}
+      - {x: -747.69775, y: -252.43712}
+      - {x: -745.4077, y: -250.14745}
+      - {x: -741.97266, y: -252.43712}
+      - {x: -747.69775, y: -253.58195}
+      - {x: -749.9878, y: -257.01648}
+    - - {x: -261.06445, y: -251.29228}
+      - {x: -266.78955, y: -246.71292}
+      - {x: -266.78955, y: -242.13356}
+      - {x: -266.78955, y: -243.2784}
+      - {x: -255.33937, y: -253.58195}
+      - {x: -254.19435, y: -253.58195}
+      - {x: -254.19435, y: -255.87164}
+      - {x: -255.33937, y: -254.7268}
+    - - {x: -504.95364, y: -252.43712}
+      - {x: -506.09866, y: -251.29228}
+      - {x: -517.5488, y: -244.42325}
+      - {x: -517.5488, y: -239.84389}
+      - {x: -509.53372, y: -249.0026}
+      - {x: -506.09866, y: -250.14745}
+      - {x: -502.6636, y: -253.58195}
+      - {x: -502.6636, y: -252.43712}
+    - - {x: -321.7505, y: -250.14745}
+      - {x: -321.7505, y: -246.71292}
+      - {x: -325.18555, y: -244.42325}
+      - {x: -324.04053, y: -246.71292}
+      - {x: -319.46045, y: -245.56808}
+      - {x: -316.0254, y: -246.71292}
+      - {x: -320.60547, y: -247.85776}
+      - {x: -322.8955, y: -251.29228}
+      - {x: -324.04053, y: -252.43712}
+      - {x: -322.8955, y: -252.43712}
+    - - {x: -572.50977, y: -246.71292}
+      - {x: -572.50977, y: -244.42325}
+      - {x: -575.9448, y: -242.13356}
+      - {x: -574.7998, y: -244.42325}
+      - {x: -572.50977, y: -244.42325}
+      - {x: -570.2197, y: -242.13356}
+      - {x: -566.78467, y: -244.42325}
+      - {x: -570.2197, y: -244.42325}
+      - {x: -574.7998, y: -249.0026}
+    - - {x: 91.60156, y: -190.61578}
+      - {x: 82.44141, y: -192.90546}
+      - {x: 79.00635, y: -196.33998}
+      - {x: 80.15137, y: -196.33998}
+    - - {x: -1062.5781, y: 44.076324}
+      - {x: -1146.1646, y: 44.076324}
+      - {x: -1163.3398, y: 23.469212}
+      - {x: -1167.9199, y: 16.600174}
+      - {x: -1167.9199, y: -123.07025}
+      - {x: -1020.21246, y: -123.07025}
+      - {x: -1006.4722, y: -96.738945}
+      - {x: -1006.4722, y: -44.076324}
+      - {x: -1029.3726, y: 39.496964}
+    - - {x: -881.66504, y: 44.076324}
+      - {x: -981.28174, y: 44.076324}
+      - {x: -990.44196, y: 36.062447}
+      - {x: -990.44196, y: -94.449265}
+      - {x: -973.2666, y: -123.07025}
+      - {x: -828.99414, y: -123.07025}
+      - {x: -828.99414, y: -2.862099}
+      - {x: -843.8794, y: 21.179531}
+    - - {x: -659.53125, y: -46.366}
+      - {x: -682.43164, y: 34.917606}
+      - {x: -698.4619, y: 44.076324}
+      - {x: -790.0635, y: 44.076324}
+      - {x: -817.54395, y: 32.627926}
+      - {x: -817.54395, y: -123.07025}
+      - {x: -673.2715, y: -123.07025}
+      - {x: -672.12646, y: -121.925415}
+      - {x: -656.0962, y: -91.01475}
+      - {x: -656.0962, y: -77.27667}
+    - - {x: -512.96875, y: 34.917606}
+      - {x: -563.3496, y: 44.076324}
+      - {x: -634.3408, y: 44.076324}
+      - {x: -643.501, y: 41.786644}
+      - {x: -643.501, y: -118.49089}
+      - {x: -634.3408, y: -123.07025}
+      - {x: -501.5186, y: -123.07025}
+      - {x: -482.05322, y: -111.62186}
+      - {x: -482.05322, y: -32.627926}
+    - - {x: -443.12256, y: 44.076324}
+      - {x: -464.87793, y: 12.020815}
+      - {x: -464.87793, y: -123.07025}
+      - {x: -295.41504, y: -123.07025}
+      - {x: -295.41504, y: -14.310494}
+      - {x: -308.01025, y: 44.076324}
+    - - {x: -195.79834, y: 44.076324}
+      - {x: -254.19435, y: 44.076324}
+      - {x: -274.8047, y: 26.903728}
+      - {x: -274.8047, y: -97.88378}
+      - {x: -257.6294, y: -103.60798}
+      - {x: -234.729, y: -101.3183}
+      - {x: -242.74414, y: -105.89766}
+      - {x: -249.61427, y: -110.47701}
+      - {x: -249.61427, y: -123.07025}
+      - {x: -132.82227, y: -123.07025}
+      - {x: -113.35693, y: -108.18734}
+      - {x: -113.35693, y: -40.641804}
+      - {x: -141.98242, y: 32.627926}
+    - - {x: 17.175293, y: -123.07025}
+      - {x: 40.075684, y: -123.07025}
+      - {x: 42.365723, y: -119.635735}
+      - {x: 64.12109, y: -89.8699}
+      - {x: 64.12109, y: -17.745012}
+      - {x: 11.450195, y: 44.076324}
+      - {x: -73.28125, y: 44.076324}
+      - {x: -97.32666, y: 10.875976}
+      - {x: -97.32666, y: -97.88378}
+      - {x: -93.8916, y: -111.62186}
+      - {x: -74.42627, y: -121.925415}
+      - {x: -67.55615, y: -123.07025}
+      - {x: -40.075684, y: -123.07025}
+      - {x: -25.19043, y: -99.02862}
+      - {x: -25.19043, y: -94.449265}
+      - {x: 10.305176, y: -121.925415}
+    - - {x: 216.40869, y: 32.627926}
+      - {x: 200.37842, y: 44.076324}
+      - {x: 111.066895, y: 44.076324}
+      - {x: 82.44141, y: 28.048569}
+      - {x: 82.44141, y: -112.76669}
+      - {x: 104.19678, y: -123.07025}
+      - {x: 231.29395, y: -123.07025}
+      - {x: 243.88916, y: -94.449265}
+      - {x: 243.88916, y: -58.959236}
+    - - {x: -247.32423, y: -72.69731}
+      - {x: -243.88916, y: -69.262794}
+      - {x: -242.74414, y: -69.262794}
+      - {x: -240.4541, y: -65.82828}
+      - {x: -243.88916, y: -66.973114}
+      - {x: -246.17921, y: -72.69731}
+      - {x: -245.03418, y: -74.98699}
+      - {x: -245.03418, y: -73.84215}
+    - - {x: -1140.4395, y: -72.69731}
+      - {x: -1137.0044, y: -69.262794}
+      - {x: -1135.8594, y: -69.262794}
+      - {x: -1133.5693, y: -65.82828}
+      - {x: -1137.0044, y: -66.973114}
+      - {x: -1139.2944, y: -72.69731}
+      - {x: -1139.2944, y: -73.84215}
+      - {x: -1139.2944, y: -72.69731}
+    - - {x: -785.4834, y: -69.262794}
+      - {x: -785.4834, y: -68.11795}
+      - {x: -788.91846, y: -73.84215}
+      - {x: -790.0635, y: -72.69731}
+    - - {x: -429.38232, y: -71.552475}
+      - {x: -422.5122, y: -64.68343}
+      - {x: -425.94727, y: -66.973114}
+      - {x: -428.2373, y: -72.69731}
+      - {x: -427.0923, y: -73.84215}
+      - {x: -427.0923, y: -72.69731}
+    - - {x: -70.99121, y: -72.69731}
+      - {x: -67.55615, y: -69.262794}
+      - {x: -66.41113, y: -69.262794}
+      - {x: -65.26611, y: -66.973114}
+      - {x: -68.70117, y: -73.84215}
+      - {x: -68.70117, y: -72.69731}
+    - - {x: 114.50195, y: -69.262794}
+      - {x: 114.50195, y: -68.11795}
+      - {x: 111.066895, y: -73.84215}
+      - {x: 109.921875, y: -72.69731}
+    - - {x: -959.52637, y: -68.11795}
+      - {x: -958.38135, y: -68.11795}
+      - {x: -957.2363, y: -65.82828}
+      - {x: -960.6714, y: -72.69731}
+      - {x: -962.9614, y: -71.552475}
+    - - {x: -612.58545, y: -68.11795}
+      - {x: -611.4404, y: -68.11795}
+      - {x: -610.2954, y: -65.82828}
+      - {x: -613.73047, y: -72.69731}
+      - {x: -616.0205, y: -71.552475}
+    - - {x: -1061.4331, y: -46.366}
+      - {x: -1061.4331, y: -39.496964}
+      - {x: -1060.2881, y: -38.352123}
+      - {x: -1060.2881, y: -37.207287}
+      - {x: -1055.708, y: -40.641804}
+      - {x: -1055.708, y: -49.80052}
+      - {x: -1053.418, y: -53.23504}
+    - - {x: -883.9551, y: -46.366}
+      - {x: -883.9551, y: -39.496964}
+      - {x: -882.81006, y: -38.352123}
+      - {x: -883.9551, y: -37.207287}
+      - {x: -877.08496, y: -42.931484}
+      - {x: -877.08496, y: -49.80052}
+      - {x: -874.7949, y: -53.23504}
+      - {x: -877.08496, y: -52.0902}
+    - - {x: -711.0571, y: -46.366}
+      - {x: -711.0571, y: -39.496964}
+      - {x: -709.9121, y: -38.352123}
+      - {x: -711.0571, y: -37.207287}
+      - {x: -706.47705, y: -40.641804}
+      - {x: -705.33203, y: -40.641804}
+      - {x: -705.33203, y: -49.80052}
+      - {x: -704.187, y: -50.94536}
+      - {x: -704.187, y: -53.23504}
+      - {x: -704.187, y: -52.0902}
+    - - {x: -537.01416, y: -46.366}
+      - {x: -537.01416, y: -39.496964}
+      - {x: -535.86914, y: -38.352123}
+      - {x: -537.01416, y: -37.207287}
+      - {x: -532.4341, y: -40.641804}
+      - {x: -530.14404, y: -40.641804}
+      - {x: -530.14404, y: -49.80052}
+      - {x: -527.854, y: -53.23504}
+      - {x: -530.14404, y: -52.0902}
+    - - {x: -350.37598, y: -46.366}
+      - {x: -350.37598, y: -39.496964}
+      - {x: -349.23096, y: -38.352123}
+      - {x: -350.37598, y: -37.207287}
+      - {x: -349.23096, y: -38.352123}
+      - {x: -346.94092, y: -38.352123}
+      - {x: -342.36084, y: -42.931484}
+      - {x: -342.36084, y: -49.80052}
+      - {x: -341.21582, y: -53.23504}
+      - {x: -343.50586, y: -53.23504}
+    - - {x: -168.31787, y: -46.366}
+      - {x: -168.31787, y: -39.496964}
+      - {x: -167.17285, y: -38.352123}
+      - {x: -167.17285, y: -37.207287}
+      - {x: -162.59277, y: -40.641804}
+      - {x: -162.59277, y: -49.80052}
+      - {x: -160.30273, y: -53.23504}
+    - - {x: 14.885254, y: -52.0902}
+      - {x: 11.450195, y: -47.51084}
+      - {x: 9.160156, y: -46.366}
+      - {x: 9.160156, y: -37.207287}
+      - {x: 13.740234, y: -40.641804}
+      - {x: 13.740234, y: -49.80052}
+      - {x: 16.030273, y: -53.23504}
+    - - {x: 188.92822, y: -46.366}
+      - {x: 188.92822, y: -39.496964}
+      - {x: 190.07324, y: -38.352123}
+      - {x: 188.92822, y: -37.207287}
+      - {x: 193.5083, y: -40.641804}
+      - {x: 194.65332, y: -40.641804}
+      - {x: 194.65332, y: -49.80052}
+      - {x: 195.79834, y: -50.94536}
+      - {x: 195.79834, y: -53.23504}
+      - {x: 195.79834, y: -52.0902}
+    - - {x: -763.728, y: -47.51084}
+      - {x: -763.728, y: -45.22116}
+      - {x: -766.01807, y: -42.931484}
+      - {x: -767.1631, y: -42.931484}
+      - {x: -766.01807, y: -44.076324}
+      - {x: -763.728, y: -44.076324}
+      - {x: -761.438, y: -41.786644}
+      - {x: -758.0029, y: -44.076324}
+      - {x: -761.438, y: -46.366}
+      - {x: -763.728, y: -46.366}
+      - {x: -767.1631, y: -49.80052}
+      - {x: -766.01807, y: -50.94536}
+    - - {x: -43.510742, y: -47.51084}
+      - {x: -43.510742, y: -45.22116}
+      - {x: -45.80078, y: -42.931484}
+      - {x: -46.9458, y: -42.931484}
+      - {x: -45.80078, y: -44.076324}
+      - {x: -43.510742, y: -44.076324}
+      - {x: -41.220703, y: -41.786644}
+      - {x: -37.785645, y: -44.076324}
+      - {x: -42.365723, y: -45.22116}
+      - {x: -46.9458, y: -48.65568}
+      - {x: -46.9458, y: -49.80052}
+      - {x: -45.80078, y: -50.94536}
+    - - {x: 136.25732, y: -47.51084}
+      - {x: 136.25732, y: -45.22116}
+      - {x: 133.96729, y: -42.931484}
+      - {x: 132.82227, y: -42.931484}
+      - {x: 133.96729, y: -44.076324}
+      - {x: 136.25732, y: -44.076324}
+      - {x: 138.54736, y: -41.786644}
+      - {x: 141.98242, y: -44.076324}
+      - {x: 138.54736, y: -46.366}
+      - {x: 136.25732, y: -46.366}
+      - {x: 132.82227, y: -49.80052}
+      - {x: 133.96729, y: -50.94536}
+    - - {x: -1112.959, y: -47.51084}
+      - {x: -1112.959, y: -45.22116}
+      - {x: -1117.5391, y: -41.786644}
+      - {x: -1116.394, y: -44.076324}
+      - {x: -1114.104, y: -44.076324}
+      - {x: -1111.814, y: -41.786644}
+      - {x: -1108.3789, y: -44.076324}
+      - {x: -1111.814, y: -45.22116}
+      - {x: -1115.249, y: -48.65568}
+      - {x: -1114.104, y: -49.80052}
+    - - {x: -936.626, y: -46.366}
+      - {x: -936.626, y: -44.076324}
+      - {x: -940.06104, y: -41.786644}
+      - {x: -938.916, y: -44.076324}
+      - {x: -936.626, y: -44.076324}
+      - {x: -934.33594, y: -41.786644}
+      - {x: -930.9009, y: -44.076324}
+      - {x: -932.0459, y: -45.22116}
+      - {x: -936.626, y: -46.366}
+      - {x: -940.06104, y: -49.80052}
+      - {x: -938.916, y: -49.80052}
+    - - {x: -589.68506, y: -46.366}
+      - {x: -589.68506, y: -44.076324}
+      - {x: -593.1201, y: -41.786644}
+      - {x: -591.9751, y: -44.076324}
+      - {x: -589.68506, y: -44.076324}
+      - {x: -587.395, y: -41.786644}
+      - {x: -583.95996, y: -44.076324}
+      - {x: -587.395, y: -46.366}
+      - {x: -589.68506, y: -46.366}
+      - {x: -593.1201, y: -49.80052}
+      - {x: -591.9751, y: -49.80052}
+    - - {x: -401.90186, y: -46.366}
+      - {x: -401.90186, y: -44.076324}
+      - {x: -403.04688, y: -42.931484}
+      - {x: -403.04688, y: -44.076324}
+      - {x: -400.75684, y: -41.786644}
+      - {x: -397.32178, y: -44.076324}
+      - {x: -400.75684, y: -45.22116}
+      - {x: -405.3369, y: -48.65568}
+      - {x: -407.62695, y: -49.80052}
+      - {x: -406.48193, y: -50.94536}
+    - - {x: -219.84375, y: -47.51084}
+      - {x: -219.84375, y: -45.22116}
+      - {x: -224.42383, y: -41.786644}
+      - {x: -223.27881, y: -44.076324}
+      - {x: -220.98877, y: -44.076324}
+      - {x: -218.69873, y: -41.786644}
+      - {x: -215.26367, y: -44.076324}
+      - {x: -218.69873, y: -45.22116}
+      - {x: -222.13379, y: -48.65568}
+      - {x: -220.98877, y: -49.80052}
+    - - {x: -991.587, y: 124.21509}
+      - {x: -991.587, y: 181.45706}
+      - {x: -1011.0523, y: 191.76062}
+      - {x: -1023.6475, y: 195.19514}
+      - {x: -1030.5176, y: 205.4987}
+      - {x: -1036.2427, y: 219.23677}
+      - {x: -1049.5, y: 253}
+      - {x: -1142.5, y: 250}
+      - {x: -1161.0498, y: 211.2229}
+      - {x: -1151.8896, y: 176.87772}
+      - {x: -1169.065, y: 152.83607}
+      - {x: -1169.5, y: 79}
+      - {x: -1112.959, y: 78.42151}
+      - {x: -1094.6387, y: 105.89766}
+      - {x: -1062.5781, y: 77.27667}
+      - {x: -1013.34235, y: 77.27667}
+    - - {x: -1165.6299, y: 449.34952}
+      - {x: -1167.9199, y: 440.1908}
+      - {x: -1167.9199, y: 369.21075}
+      - {x: -1130.1343, y: 282.20294}
+      - {x: -1118.6841, y: 276.47876}
+      - {x: -1025.9375, y: 276.47876}
+      - {x: -1024.7925, y: 278.76843}
+      - {x: -1024.7925, y: 345.16913}
+      - {x: -1076.3184, y: 449.34952}
+    - - {x: -867.9248, y: 278.76843}
+      - {x: -843.8794, y: 291.36166}
+      - {x: -843.8794, y: 339.44492}
+      - {x: -920.5957, y: 448.20468}
+      - {x: -1012.1973, y: 448.20468}
+      - {x: -1012.1973, y: 319.98267}
+      - {x: -1007.61725, y: 286.78232}
+      - {x: -974.4116, y: 276.47876}
+      - {x: -938.916, y: 276.47876}
+      - {x: -928.61084, y: 294.79617}
+      - {x: -908.0005, y: 276.47876}
+      - {x: -873.6499, y: 276.47876}
+    - - {x: -828.99414, y: 449.34952}
+      - {x: -828.99414, y: 336.0104}
+      - {x: -827.8491, y: 325.70685}
+      - {x: -799.22363, y: 305.09973}
+      - {x: -778.6133, y: 314.25845}
+      - {x: -779.7583, y: 326.85168}
+      - {x: -770.59814, y: 300.5204}
+      - {x: -756.8579, y: 276.47876}
+      - {x: -698.4619, y: 276.47876}
+      - {x: -667.5464, y: 290.21683}
+      - {x: -667.5464, y: 323.41718}
+      - {x: -725.9424, y: 449.34952}
+    - - {x: -506.09866, y: 297.08588}
+      - {x: -485.48828, y: 293.65134}
+      - {x: -485.48828, y: 336.0104}
+      - {x: -535.86914, y: 444.77017}
+      - {x: -550.7544, y: 447.05984}
+      - {x: -651.5161, y: 447.05984}
+      - {x: -651.5161, y: 302.81006}
+      - {x: -645.791, y: 282.20294}
+      - {x: -624.03564, y: 276.47876}
+      - {x: -571.36475, y: 276.47876}
+      - {x: -563.3496, y: 287.92715}
+      - {x: -548.46436, y: 276.47876}
+      - {x: -515.2588, y: 276.47876}
+    - - {x: -1166.7749, y: 646.2619}
+      - {x: -1166.7749, y: 527.1986}
+      - {x: -1161.0498, y: 476.82568}
+      - {x: -1025.9375, y: 476.82568}
+      - {x: -1025.9375, y: 560.399}
+      - {x: -1061.4331, y: 646.2619}
+    - - {x: -895.4053, y: 535.21246}
+      - {x: -899.98535, y: 617.6409}
+      - {x: -930.9009, y: 642.8274}
+      - {x: -998.4571, y: 642.8274}
+      - {x: -1011.0523, y: 630.2342}
+      - {x: -1011.0523, y: 530.6331}
+      - {x: -997.3121, y: 476.82568}
+      - {x: -890.8252, y: 476.82568}
+      - {x: -866.7798, y: 506.5915}
+      - {x: -866.7798, y: 528.34344}
+      - {x: -870.21484, y: 534.0676}
+    - - {x: -720.2173, y: 531.77795}
+      - {x: -724.79736, y: 528.34344}
+      - {x: -752.27783, y: 552.3851}
+      - {x: -737.3926, y: 561.5438}
+      - {x: -733.9575, y: 619.9306}
+      - {x: -769.4531, y: 642.8274}
+      - {x: -846.16943, y: 642.8274}
+      - {x: -851.89453, y: 617.6409}
+      - {x: -851.89453, y: 547.8057}
+      - {x: -840.44434, y: 476.82568}
+      - {x: -719.07227, y: 476.82568}
+      - {x: -706.47705, y: 506.5915}
+      - {x: -706.47705, y: 530.6331}
+      - {x: -711.0571, y: 531.77795}
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Werewolf Atlas_0: 1692856759
+      Werewolf Atlas_1: -1311907296
+      Werewolf Atlas_10: -392086162
+      Werewolf Atlas_11: -1179810822
+      Werewolf Atlas_12: -1797871675
+      Werewolf Atlas_13: 683935968
+      Werewolf Atlas_14: 680066360
+      Werewolf Atlas_15: -140812269
+      Werewolf Atlas_16: -1361806440
+      Werewolf Atlas_17: -1768841283
+      Werewolf Atlas_18: -65815337
+      Werewolf Atlas_19: 442055145
+      Werewolf Atlas_2: -1203209546
+      Werewolf Atlas_20: 689952514
+      Werewolf Atlas_21: 376270415
+      Werewolf Atlas_22: 859459774
+      Werewolf Atlas_23: -480084574
+      Werewolf Atlas_24: -168122105
+      Werewolf Atlas_25: 195004155
+      Werewolf Atlas_26: -978330868
+      Werewolf Atlas_27: -1128989262
+      Werewolf Atlas_28: 1281683495
+      Werewolf Atlas_29: 1718287141
+      Werewolf Atlas_3: -874566427
+      Werewolf Atlas_30: 1120322452
+      Werewolf Atlas_31: -1140161996
+      Werewolf Atlas_32: -1304161742
+      Werewolf Atlas_33: -330592061
+      Werewolf Atlas_34: -101873338
+      Werewolf Atlas_35: -1051308473
+      Werewolf Atlas_36: -344173623
+      Werewolf Atlas_37: 827931474
+      Werewolf Atlas_38: 1103352639
+      Werewolf Atlas_39: -383313392
+      Werewolf Atlas_4: 12455765
+      Werewolf Atlas_40: -58782228
+      Werewolf Atlas_41: -737469347
+      Werewolf Atlas_42: 1807196608
+      Werewolf Atlas_43: 905029580
+      Werewolf Atlas_44: 924265606
+      Werewolf Atlas_45: -2137068306
+      Werewolf Atlas_46: -584203887
+      Werewolf Atlas_47: -1519139223
+      Werewolf Atlas_48: -2031912544
+      Werewolf Atlas_49: -892350156
+      Werewolf Atlas_5: -193190560
+      Werewolf Atlas_50: -1430039745
+      Werewolf Atlas_51: 240616352
+      Werewolf Atlas_6: -782012782
+      Werewolf Atlas_7: 138628843
+      Werewolf Atlas_8: 18479078
+      Werewolf Atlas_9: 1122636366
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
