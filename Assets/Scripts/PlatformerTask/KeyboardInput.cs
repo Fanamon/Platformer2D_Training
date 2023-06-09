@@ -40,7 +40,8 @@ public class KeyboardInput : MonoBehaviour
             _animator.SetTrigger(AnimatorTriggerNames.Attack);
         }
 
-        if (Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.D) == false || Input.GetKey(KeyCode.D) && Input.GetKey(KeyCode.A) == false)
+        if (Input.GetKey(KeyCode.A) && Input.GetKey(KeyCode.D) == false ||
+            Input.GetKey(KeyCode.D) && Input.GetKey(KeyCode.A) == false)
         {
             _animator.SetFloat(AnimatorTriggerNames.Speed, _movement.Speed);
         }

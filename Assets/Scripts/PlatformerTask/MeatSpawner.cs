@@ -40,7 +40,8 @@ public class MeatSpawner : MonoBehaviour
 
         if (_pointFillness[randomSpawnIndex].IsEmpty)
         {
-            GameObject meat = Instantiate(_meatToSpawn.gameObject, _spawnPoints[randomSpawnIndex].transform.position, Quaternion.identity);
+            GameObject meat = Instantiate(_meatToSpawn.gameObject,
+                _spawnPoints[randomSpawnIndex].transform.position, Quaternion.identity);
 
             meat.GetComponent<Meat>().TakeSpawnPoint(_pointFillness[randomSpawnIndex]);
 
