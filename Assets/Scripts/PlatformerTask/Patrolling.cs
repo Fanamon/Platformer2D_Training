@@ -1,16 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
-[RequireComponent(typeof(SpriteRenderer))]
 public class Patrolling : MonoBehaviour
 {
     [SerializeField] private Transform _path;
+    [SerializeField] private EnemyVisionZone _enemyVisionZone;
     [SerializeField] private float _speed;
 
+    private Transform _transform;
+    private Vector3 _target;
     private Rigidbody2D _rigidbody;
-    private SpriteRenderer _spriteRenderer;
 
     private int _currentPoint;
 
@@ -18,8 +17,8 @@ public class Patrolling : MonoBehaviour
 
     private void Start()
     {
+        _transform = transform;
         _rigidbody = GetComponent<Rigidbody2D>();
-        _spriteRenderer = GetComponent<SpriteRenderer>();
 
         _points = new Transform[_path.childCount];
 
@@ -33,13 +32,20 @@ public class Patrolling : MonoBehaviour
 
     private void Update()
     {
-        Transform target = _points[_currentPoint];
+        if (_enemyVisionZone.IsPlayerInVisionZone == false)
+        {
+            _target = _points[_currentPoint].position;
+        }
+        else
+        {
+            _target = _enemyVisionZone.PlayerPosition.position;
+        }
 
-        ChangeFlipXPosition(target);
+        ChangeFlipXPosition(_target);
 
-        transform.position = Vector2.MoveTowards(transform.position, target.position, _speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, _target, _speed * Time.deltaTime);
 
-        if (transform.position == target.position)
+        if (_transform.position == _target)
         {
             _currentPoint++;
 
@@ -50,15 +56,15 @@ public class Patrolling : MonoBehaviour
         }
     }
 
-    private void ChangeFlipXPosition(Transform target)
+    private void ChangeFlipXPosition(Vector3 target)
     {
-        if (target.position.x >= transform.position.x && _spriteRenderer.flipX == false)
+        if (target.x >= transform.position.x)
         {
-            _spriteRenderer.flipX = true;
+            _transform.rotation = new Quaternion(0, 0, 0, 0);
         }
-        else if (target.position.x < transform.position.x && _spriteRenderer.flipX)
+        else if (target.x < transform.position.x)
         {
-            _spriteRenderer.flipX = false;
+            _transform.rotation = new Quaternion(0, 180, 0, 0);
         }
     }
 }

@@ -9,6 +9,7 @@ public class Movement : MonoBehaviour
     [SerializeField] private float _speed;
     [SerializeField] private float _jumpPower;
 
+    private Transform _transform;
     private SpriteRenderer _spriteRenderer;
     private Rigidbody2D _rigidbody;
     private GroundChecker _groundChecker;
@@ -17,6 +18,7 @@ public class Movement : MonoBehaviour
 
     private void Start()
     {
+        _transform = transform;
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _rigidbody = GetComponent<Rigidbody2D>();
         _groundChecker = GetComponentInChildren<GroundChecker>();
@@ -26,21 +28,20 @@ public class Movement : MonoBehaviour
 
     public void MoveLeft()
     {
-        if (_spriteRenderer.flipX)
-        {
-            _spriteRenderer.flipX = false;
-        }
+        _transform.rotation = new Quaternion(0, 180, 0, 0);
 
-        transform.Translate(_speed * Time.deltaTime * (-1), 0, 0);
+        MoveForward();
     }
 
     public void MoveRight()
     {
-        if (_spriteRenderer.flipX == false)
-        {
-            _spriteRenderer.flipX = true;
-        }
+        _transform.rotation = new Quaternion(0, 0, 0, 0);
 
+        MoveForward();
+    }
+
+    private void MoveForward()
+    {
         transform.Translate(_speed * Time.deltaTime, 0, 0);
     }
 
