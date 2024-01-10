@@ -2,21 +2,20 @@ using System.Collections;
 using System.Linq;
 using UnityEngine;
 
-[RequireComponent(typeof(Animator))]
 public class EnemyAttack : MonoBehaviour
 {
     private const string Attack = "KnightAttack";
 
     [SerializeField] private float _damage;
 
+    [SerializeField] private Animator _animator;
+
     private float _attackClipTime;
 
-    private Animator _animator;
     private Coroutine _attacker;
 
     private void Awake()
     {
-        _animator = GetComponent<Animator>();
         _attackClipTime = _animator.runtimeAnimatorController.animationClips.
             First(clip => clip.name == Attack).length;
     }

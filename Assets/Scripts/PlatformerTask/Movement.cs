@@ -1,16 +1,13 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(Rigidbody2D))]
 public class Movement : MonoBehaviour
 {
     [SerializeField] private float _speed;
     [SerializeField] private float _jumpPower;
+    [SerializeField] private Transform _playableModel;
 
     private Transform _transform;
-    private SpriteRenderer _spriteRenderer;
     private Rigidbody2D _rigidbody;
     private GroundChecker _groundChecker;
 
@@ -19,7 +16,6 @@ public class Movement : MonoBehaviour
     private void Start()
     {
         _transform = transform;
-        _spriteRenderer = GetComponent<SpriteRenderer>();
         _rigidbody = GetComponent<Rigidbody2D>();
         _groundChecker = GetComponentInChildren<GroundChecker>();
 
@@ -28,21 +24,14 @@ public class Movement : MonoBehaviour
 
     public void MoveLeft()
     {
-        _transform.rotation = new Quaternion(0, 180, 0, 0);
-
-        MoveForward();
+        _playableModel.rotation = new Quaternion(0, 180, 0, 0);
+        _transform.Translate(_speed * -Time.deltaTime, 0, 0);
     }
 
     public void MoveRight()
     {
-        _transform.rotation = new Quaternion(0, 0, 0, 0);
-
-        MoveForward();
-    }
-
-    private void MoveForward()
-    {
-        transform.Translate(_speed * Time.deltaTime, 0, 0);
+        _playableModel.rotation = new Quaternion(0, 0, 0, 0);
+        _transform.Translate(_speed * Time.deltaTime, 0, 0);
     }
 
     public void Jump()

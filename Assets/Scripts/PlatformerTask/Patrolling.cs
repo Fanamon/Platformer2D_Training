@@ -3,9 +3,11 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Patrolling : MonoBehaviour
 {
-    [SerializeField] private Transform _path;
-    [SerializeField] private EnemyVisionZone _enemyVisionZone;
     [SerializeField] private float _speed;
+
+    [SerializeField] private Transform _path;
+    [SerializeField] private Transform _enemyModel;
+    [SerializeField] private EnemyVisionZone _enemyVisionZone;
 
     private Transform _transform;
     private Vector3 _target;
@@ -41,7 +43,7 @@ public class Patrolling : MonoBehaviour
             _target = _enemyVisionZone.PlayerPosition.position;
         }
 
-        ChangeFlipXPosition(_target);
+        RotateModelTo(_target);
 
         transform.position = Vector2.MoveTowards(transform.position, _target, _speed * Time.deltaTime);
 
@@ -56,15 +58,15 @@ public class Patrolling : MonoBehaviour
         }
     }
 
-    private void ChangeFlipXPosition(Vector3 target)
+    private void RotateModelTo(Vector3 target)
     {
         if (target.x >= transform.position.x)
         {
-            _transform.rotation = new Quaternion(0, 0, 0, 0);
+            _enemyModel.rotation = new Quaternion(0, 0, 0, 0);
         }
         else if (target.x < transform.position.x)
         {
-            _transform.rotation = new Quaternion(0, 180, 0, 0);
+            _enemyModel.rotation = new Quaternion(0, 180, 0, 0);
         }
     }
 }

@@ -2,14 +2,14 @@ using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
 
-[RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(Movement))]
 [RequireComponent(typeof(PlayerAttack))]
 public class KeyboardInput : MonoBehaviour
 {
     private const string Attack = "WerewolfAttack";
 
-    private Animator _animator;
+    [SerializeField] private Animator _animator;
+
     private Movement _movement;
     private PlayerAttack _playerAttack;
 
@@ -19,16 +19,10 @@ public class KeyboardInput : MonoBehaviour
 
     private void Awake()
     {
-        _animator = GetComponent<Animator>();
-
-        _attackClipTime = _animator.runtimeAnimatorController.animationClips.
-            First(clip => clip.name == Attack).length;
-    }
-
-    private void Start()
-    {
         _movement = GetComponent<Movement>();
         _playerAttack = GetComponent<PlayerAttack>();
+        _attackClipTime = _animator.runtimeAnimatorController.animationClips.
+            First(clip => clip.name == Attack).length;
     }
 
     void Update()
