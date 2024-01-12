@@ -213,7 +213,7 @@ GameObject:
   - component: {fileID: 8422855983351984886}
   - component: {fileID: 150504122683666393}
   - component: {fileID: 3077504295976520248}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Knight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -321,7 +321,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4026b5bade2fc44c8b50c77f31b2a50, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: 3
+  _health: 100
 --- !u!114 &150504122683666393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -334,7 +334,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49fd7381f0ca2dd41b0633e727eba38e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _damage: 1
+  _damage: 10
   _animator: {fileID: 8238015863835449421}
 --- !u!114 &3077504295976520248
 MonoBehaviour:

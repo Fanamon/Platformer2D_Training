@@ -241,7 +241,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a448f2ad5b7f8c140a20ec1f1d12ff5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: 5
+  _health: 100
 --- !u!114 &8981813310499686532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -254,7 +254,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c65ee67424b6a64c9fce110dd1a543e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _attackValue: 2
+  _attackValue: 25
   _attackZone: {fileID: 3241308850755759983}
 --- !u!1 &8564388665966596838
 GameObject:
