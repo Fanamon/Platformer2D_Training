@@ -105,6 +105,7 @@ GameObject:
   - component: {fileID: 8715198173168058361}
   - component: {fileID: 6403468820369895705}
   - component: {fileID: 8981813310499686532}
+  - component: {fileID: -7602812997733821878}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -256,6 +257,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _attackValue: 25
   _attackZone: {fileID: 3241308850755759983}
+--- !u!114 &-7602812997733821878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4667807589291262499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05d827cf4f912bb46bd27fc915127ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _abilityDuration: 6
+  _lifeStealValue: 5
+  _button: {fileID: 0}
 --- !u!1 &8564388665966596838
 GameObject:
   m_ObjectHideFlags: 0
